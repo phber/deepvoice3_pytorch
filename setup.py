@@ -77,6 +77,7 @@ setup(name='deepvoice3_pytorch',
           'develop': develop,
       },
       install_requires=[
+          "wheel",
           "numpy",
           "scipy",
           "torch < 2.0",
